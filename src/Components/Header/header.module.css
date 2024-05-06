@@ -1,0 +1,50 @@
+.headerContainer {
+  margin-top: 2%;
+  height: 11.2vh;
+  width: 98vw;
+  margin-left: 0.4%;
+  border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
+  border: 1px solid #eaeaea;
+  display: flex;
+}
+
+.logo {
+  margin-left: 3%;
+  margin-top: 1%;
+  height: 65%;
+  width: 10%;
+}
+
+.headerButtons {
+  margin-left: 53%;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.projectsbtn {
+  height: 85%;
+  width: 30%;
+  margin-left: 35%;
+  border: 1px solid #eaeaea;
+  background-color: white;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  color: #1c1c1c;
+  border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
+}
+
+.talentbtn {
+  height: 85%;
+  width: 30%;
+  margin-left: 2%;
+  border: 1px solid #eaeaea;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-optical-sizing: auto;
+  background-color: black;
+  color: white;
+  border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
+}

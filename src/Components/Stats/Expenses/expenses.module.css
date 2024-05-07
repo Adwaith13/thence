@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
+
+.expenseContainer {
+  position: absolute;
+  top: 67%;
+  width: 18.5%;
+  height: 37%;
+  left: 33.2%;
+  background-color: #002e18;
+  border-radius: 20px;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+
+.expenseContainer:hover {
+  transform: scale(1.05);
+}
+
+.costImg {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.costText {
+  display: inline;
+  color: #a6a3a0;
+  font-family: "Switzer", sans-serif;
+  margin-left: 4%;
+  margin-bottom: 10%;
+  font-size: 1.1rem;
+}
+
+.text {
+  color: #cccccc;
+  font-family: "Manrope", sans-serif;
+  margin-left: 12%;
+  font-size: 0.9rem;
+  line-height: 23.4px;
+}

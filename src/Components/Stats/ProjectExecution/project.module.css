@@ -15,7 +15,7 @@
 }
 
 .projectContainer:hover {
-  transform: scale(1.05);
+  transform: translateX(-10px) translateY(-20px);
 }
 
 .sparkimage {

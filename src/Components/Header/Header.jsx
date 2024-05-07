@@ -3,6 +3,7 @@ import headLogo from "../../assets/head_logo.svg";
 import headerStyles from "./header.module.css";
 import Title from "../Title/Title";
 import Stats from "../Stats/Stats";
+import Questions from "../Questions/Questions";
 
 export default function Header() {
   return (
@@ -16,6 +17,7 @@ export default function Header() {
       </div>
       <Title />
       <Stats />
+      <Questions />
     </>
   );
 }

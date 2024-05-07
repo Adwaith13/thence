@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
 
 .titleContainer {
@@ -10,15 +9,8 @@
   margin-top: 3.5%;
 }
 
-.titleContainer p {
-  margin: 0;
-}
-
-.titleContainer h2 {
-  margin: 0.5rem;
-}
-
 .title {
+  margin: 0;
   text-align: center;
   font-family: "Covered By Your Grace";
   font-size: 2rem;
@@ -27,6 +19,7 @@
 }
 
 .body {
+  margin: 0.5rem;
   text-align: center;
   font-size: 2.5rem;
   font-family: "Manrope", sans-serif;

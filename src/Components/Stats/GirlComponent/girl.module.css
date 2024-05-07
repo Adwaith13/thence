@@ -1,0 +1,12 @@
+.girlContainer {
+  margin-top: 5%;
+  margin-left: 14%;
+  width: 37%;
+  height: 40%;
+}
+
+.image {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 40px;
+}

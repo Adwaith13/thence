@@ -1,0 +1,26 @@
+.btn {
+  position: relative;
+  background-color: #1c1c1c;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 42%;
+  width: 40%;
+  height: 12%;
+  text-align: center;
+  padding: 1px 1px;
+  border-radius: 50px;
+  border: 1px solid #1c1c1c;
+  cursor: pointer;
+}
+
+.arrowIcon {
+  position: absolute;
+  width: 6%;
+  left: 80%;
+  top: 41%;
+}
+
+.btn:hover {
+  background-color: #4e4e4e;
+}

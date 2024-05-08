@@ -3,6 +3,7 @@ import headLogo from "../../assets/head_logo.svg";
 import headerStyles from "./header.module.css";
 import Title from "../Title/Title";
 import Stats from "../Stats/Stats";
+import Insights from "../Insights/Insights";
 import Questions from "../Questions/Questions";
 import Footer from "../Footer/Footer";
 
@@ -17,7 +18,10 @@ export default function Header() {
         </div>
       </div>
       <Title />
-      <Stats />
+      <div className={headerStyles.statsInsightsContainer}>
+        <Stats />
+        <Insights />
+      </div>
       <Questions />
       <Footer />
     </>

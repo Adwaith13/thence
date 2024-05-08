@@ -1,5 +1,4 @@
-import React from "react";
-import girlImage from "../../../assets/girl_image.png";
+import girlImage from "../../../assets/images/girl_image.png";
 import girlStyles from "./girl.module.css";
 
 export default function GirlComponent() {

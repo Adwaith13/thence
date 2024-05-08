@@ -5,20 +5,16 @@
   font-size: 16px;
   color: white;
   margin-top: 36.5%;
-  width: 40%;
-  height: 12%;
-  text-align: center;
-  padding: 1px 1px;
+  width: 36%;
+  height: 11.5%;
   border-radius: 50px;
   border: 1px solid #1c1c1c;
   cursor: pointer;
 }
 
 .arrowIcon {
-  position: absolute;
-  width: 6%;
-  left: 80%;
-  top: 41%;
+  width: 6.5%;
+  margin-left: 13px;
 }
 
 .btn:hover {

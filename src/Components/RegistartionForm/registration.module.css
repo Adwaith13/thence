@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
+
+.formContainer {
+  margin-top: 3%;
+  margin-left: 25%;
+  width: 50%;
+  height: 70%;
+}
+
+.formHead {
+  font-family: "Covered By Your Grace", cursive;
+  color: #2da950;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+.head {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 1.2%;
+}
+
+.inputFields {
+  margin-left: 25%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.nameField {
+  width: 45%;
+  padding: 16px 25px;
+  border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
+  background-color: #efefef;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid #efefef;
+}
+
+.emailField {
+  width: 45%;
+  padding: 16px 25px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
+  background-color: #efefef;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid #efefef;
+}
+
+.nameField:focus,
+.emailField:focus {
+  border: 1px solid #537ff1;
+}
+
+.submitbtn {
+  width: 52%;
+  padding: 16px 28px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
+  background-color: #1c1c1c;
+  font-family: "Manrope", sans-serif;
+  color: white;
+  border: 1px solid #1c1c1c;
+  font-size: 15px;
+  cursor: pointer;
+}
+.submitbtn:disabled {
+  width: 52%;
+  padding: 16px 28px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
+  background-color: #c9c9c9;
+  font-family: "Manrope", sans-serif;
+  color: white;
+  border: 1px solid #c9c9c9;
+  font-size: 15px;
+  cursor: not-allowed;
+}
+
+.emailError {
+  display: flex;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  color: #ff0808;
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.errorIcon {
+  width: 2.8%;
+  margin-right: 3px;
+}

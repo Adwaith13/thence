@@ -3,10 +3,10 @@
 .deployedContainer {
   display: flex;
   position: absolute;
-  top: 75%;
+  top: 72%;
   left: 20.5%;
   width: 35%;
-  height: 12%;
+  height: 10%;
   border-radius: 50px 50px 50px 50px / 50px 50px 50px 50px;
   padding-bottom: 12px;
   border: 1px solid white;

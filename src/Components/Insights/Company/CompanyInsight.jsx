@@ -1,4 +1,3 @@
-import React from "react";
 import companyInsightStyles from "./companyinsight.module.css";
 
 export default function CompanyInsight() {

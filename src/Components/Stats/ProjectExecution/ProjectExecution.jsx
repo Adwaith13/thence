@@ -1,4 +1,4 @@
-import spark from "../../../assets/spark.svg";
+import spark from "../../../assets/icons/spark.svg";
 import projectStyles from "./project.module.css";
 
 export default function ProjectExecution() {

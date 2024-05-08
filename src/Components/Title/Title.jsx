@@ -1,4 +1,3 @@
-import React from "react";
 import titleStyles from "./title.module.css";
 
 export default function Title() {

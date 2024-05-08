@@ -1,4 +1,4 @@
-import deployedIMG from "../../../assets/deployed.svg";
+import deployedIMG from "../../../assets/icons/deployed.svg";
 import deploymentStyles from "./deployment.module.css";
 
 export default function DeploymentDuration() {

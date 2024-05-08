@@ -1,7 +1,7 @@
+import arrow from "../../assets/icons/arrow.svg";
+import add from "../../assets/icons/add.svg";
+import subtract from "../../assets/icons/subtract.svg";
 import questionStyles from "./questions.module.css";
-import arrow from "../../assets/arrow.svg";
-import add from "../../assets/add.svg";
-import subtract from "../../assets/subtract.svg";
 
 export default function Questions() {
   return (
@@ -69,14 +69,17 @@ export default function Questions() {
         </p>
         <hr />
         <p className={questionStyles.question5}>
-          Who can help me pick a right skillset and duration for me?
-          <img
-            src={add}
-            alt="add-icon"
-            className={questionStyles.addIcon4}
-          ></img>
+          <span>
+            Who can help me pick a right skillset
+            <img
+              src={add}
+              alt="add-icon"
+              className={questionStyles.addIcon4}
+            ></img>
+          </span>
+          <br />
+          <span>and duration for me?</span>
         </p>
-        <hr />
       </div>
     </div>
   );

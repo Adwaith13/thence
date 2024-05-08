@@ -3,7 +3,7 @@
 .questionContainer {
   margin-top: 10%;
   width: 97%;
-  height: 80vh;
+  height: 90vh;
   margin-left: 1.5%;
   background-color: #e8eee7;
   border-radius: 40px;
@@ -51,28 +51,28 @@
 }
 
 .question2 {
-  margin-top: 2%;
+  margin-top: 3% 0;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
 
 .question3 {
-  margin-top: 2%;
+  margin-top: 3% 0;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
 
 .question4 {
-  margin-top: 2%;
+  margin-top: 3% 0;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
 
 .question5 {
-  margin-top: 2%;
+  margin: 3% 0;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -84,6 +84,7 @@
   color: #617275;
   font-weight: 600;
   font-size: 15px;
+  margin-bottom: 5%;
 }
 
 hr {
@@ -109,5 +110,5 @@ hr {
 }
 
 .addIcon4 {
-  margin-left: 14%;
+  margin-left: 41%;
 }

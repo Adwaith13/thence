@@ -1,4 +1,4 @@
-import copyright from "../../assets/copyright.svg";
+import copyright from "../../assets/icons/copyright.svg";
 import footerStyles from "./footer.module.css";
 
 export default function Footer() {

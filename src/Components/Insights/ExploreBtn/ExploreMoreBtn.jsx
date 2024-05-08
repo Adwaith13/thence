@@ -1,4 +1,4 @@
-import arrowBtn from "../../../assets/arrowbtn.svg";
+import arrowBtn from "../../../assets/icons/arrowbtn.svg";
 import exploreBtnStyles from "./explorebtn.module.css";
 
 export default function ExploreMoreBtn() {

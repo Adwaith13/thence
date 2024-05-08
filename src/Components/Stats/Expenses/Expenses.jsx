@@ -1,5 +1,4 @@
-import React from "react";
-import cost from "../../../assets/cost.svg";
+import cost from "../../../assets/icons/cost.svg";
 import expenseStyles from "./expenses.module.css";
 
 export default function Expenses() {

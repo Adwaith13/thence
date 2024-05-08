@@ -4,6 +4,7 @@ import headerStyles from "./header.module.css";
 import Title from "../Title/Title";
 import Stats from "../Stats/Stats";
 import Questions from "../Questions/Questions";
+import Footer from "../Footer/Footer";
 
 export default function Header() {
   return (
@@ -18,6 +19,7 @@ export default function Header() {
       <Title />
       <Stats />
       <Questions />
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,7 @@
 import questionStyles from "./questions.module.css";
 import arrow from "../../assets/arrow.svg";
+import add from "../../assets/add.svg";
+import subtract from "../../assets/subtract.svg";
 
 export default function Questions() {
   return (
@@ -10,16 +12,35 @@ export default function Questions() {
         <img src={arrow} alt="arrow-img" className={questionStyles.arrow}></img>
       </div>
       <div className={questionStyles.rightContainer}>
-        <p className={questionStyles.question1}>Do you offer freelancers?</p>
+        <p className={questionStyles.question1}>
+          Do you offer freelancers?
+          <img
+            src={add}
+            alt="add-icon"
+            className={questionStyles.addIcon1}
+          ></img>
+        </p>
         <hr />
         <p className={questionStyles.question2}>
-          <span>What’s the guarantee that I will be satisfied </span>
+          <span>
+            What’s the guarantee that I will be satisfied
+            <img
+              src={add}
+              alt="add-icon"
+              className={questionStyles.addIcon2}
+            ></img>
+          </span>
           <br />
           <span>with the hired talent?</span>
         </p>
         <hr />
         <p className={questionStyles.question3}>
           Can I hire multiple talents at once?
+          <img
+            src={subtract}
+            alt="subtract-icon"
+            className={questionStyles.subtractIcon}
+          ></img>
         </p>
         <p className={questionStyles.answer}>
           <span>
@@ -40,10 +61,20 @@ export default function Questions() {
         <hr />
         <p className={questionStyles.question4}>
           Why should I not go to an agency directly?
+          <img
+            src={add}
+            alt="add-icon"
+            className={questionStyles.addIcon3}
+          ></img>
         </p>
         <hr />
         <p className={questionStyles.question5}>
           Who can help me pick a right skillset and duration for me?
+          <img
+            src={add}
+            alt="add-icon"
+            className={questionStyles.addIcon4}
+          ></img>
         </p>
         <hr />
       </div>

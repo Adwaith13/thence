@@ -8,6 +8,7 @@ export default function Congratulations() {
   const navigate = useNavigate();
   const [remainingTime, setRemainingTime] = useState(5);
 
+  //redirects to homepage after 5 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       navigate("/");
@@ -15,9 +16,10 @@ export default function Congratulations() {
     return () => clearTimeout(timer);
   }, []);
 
+  //timer for 5 seconds
   useEffect(() => {
     const timer = setInterval(() => {
-      setRemainingTime((prevTime) => Math.max(0, prevTime - 1));
+      setRemainingTime((seconds) => Math.max(0, seconds - 1));
     }, 1000);
     return () => clearInterval(timer);
   }, []);

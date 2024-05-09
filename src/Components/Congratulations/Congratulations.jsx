@@ -49,8 +49,10 @@ export default function Congratulations() {
           <span>shortly with updates</span>
         </p>
         <p className={congratulationsStyles.redirect}>
-          Redirecting you to Homepage in{" "}
-          <span className={congratulationsStyles.timer}>
+          <span className={congratulationsStyles.redirectText}>
+            Redirecting you to Homepage in
+          </span>
+          <span className={congratulationsStyles.timerText}>
             {remainingTime} Seconds
           </span>
         </p>

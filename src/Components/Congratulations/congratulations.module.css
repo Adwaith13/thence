@@ -44,12 +44,17 @@
 .redirect {
   text-align: center;
   margin-top: 23%;
-  font-weight: 400;
   font-size: 1rem;
   font-family: "Manrope", sans-serif;
   letter-spacing: 0.2px;
 }
 
-.timer {
+.redirectText {
+  color: #727272;
+  margin-right: 4px;
+  font-weight: 400;
+}
+
+.timerText {
   font-weight: 800;
 }

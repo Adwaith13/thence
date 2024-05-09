@@ -67,7 +67,7 @@
 .submitbtn {
   width: 52%;
   padding: 16px 28px;
-  margin-top: 4%;
+  margin-top: 2%;
   margin-bottom: 2%;
   border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
   background-color: #1c1c1c;
@@ -98,6 +98,7 @@
   color: #ff0808;
   font-size: 12.5px;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 .errorIcon {

@@ -10,6 +10,13 @@ In the project directory, you can run:
 
 This will install the necessary packages used in this assignment
 
+## Dependencies
+
+This assignment uses the following external libraries:
+
+- **react-router-dom**: Used for implementing routing/navigation in the application.
+- **email-validator**: Used for validating email addresses entered in the registration form.
+
 ### `npm start`
 
 Runs the app in the development mode.\

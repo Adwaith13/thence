@@ -80,7 +80,7 @@
 .submitbtn:disabled {
   width: 52%;
   padding: 16px 28px;
-  margin-top: 4%;
+  margin-top: 2%;
   margin-bottom: 2%;
   border-radius: 40px 40px 40px 40px / 50px 50px 50px 50px;
   background-color: #c9c9c9;
